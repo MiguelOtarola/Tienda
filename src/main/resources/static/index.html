@@ -4,16 +4,51 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
 Esta es la primera pagina web de hoy
 -->
+<!DOCTYPE html>
+<!-- Esta es la primera pagina web de hoy... -->
 <html>
     <head>
         <title>TechShop</title>
         <meta charset="UTF-8"/>
+
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <a href="ejemplo7.html">&triangleleft;</a>|
-        <a href="index.html">Home</a>|
-        <a href="ejemplo2.html">&triangleright;</a>
-        <h1 style="text-align: center;background-color: blue;color: white">Home</h1>
-        <h2>Pagina Principal</h2>
+        <header class="encabezado">
+            <nav class="navegacion">
+                <a class="nav-link logo" href="index.html">TechShop</a>
+                 
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"> <a class="nav-link nav-menu-link" href="ejemplo7.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="ejemplo2.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audio.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="video.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iframe.html">iFrame</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h1>Home</h1>
+            <h2>Pagina principal</h2>
+        </aside>
+        <section>
+            <h2>Nuestros Productos</h2>
+            <article>
+                <h3>Articulo en descuento</h3>
+                <p>Lorem ipsum <strong> dolor sit amet </strong> consectetur adipiscing, elit per lacinia scelerisque lobortis pellentesque, parturient nunc natoque tellus quisque. Justo litora curae lacinia facilisi sociosqu ut est sapien, tempus nulla erat habitant sem quisque tortor, interdum dui pretium orci molestie vestibulum neque fermentum, sodales etiam porttitor posuere venenatis pellentesque.</p>
+                <figure>
+                    <img src="img/marmota.jpg" alt="" width="100"/>
+                    <figcaption>Marmota pidiendo comida</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>El mas vendido</h3>
+                <p>Eu sodales <u>sociosqu dis nec torquent</u> pretium semper, libero parturient laoreet ullamcorper massa litora, pulvinar dignissim ultrices rhoncus velit blandit. Quis sagittis eget sem dui vestibulum vivamus duis scelerisque sociosqu nullam sociis velit, massa mollis aenean penatibus sollicitudin nibh lectus nunc conubia mus. Magnis lobortis nibh phasellus lacinia scelerisque suscipit tempor rhoncus urna tortor fermentum, tellus purus posuere netus nullam habitasse integer molestie lacus.</p>
+            </article>
+        </section>
+        <footer>
+            TechShop Todos los Derechos Reservados 2024 &COPY;
+        </footer>
+
     </body>
 </html>
